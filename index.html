@@ -1,0 +1,104 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>SIGHT - Expression Board</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+
+  <link rel="stylesheet" href="css/styles.css?v=1.0">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  
+
+</head>
+
+<body>
+  <script src="js/scripts.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+  <script>
+    $(document).ready(function(){
+      $('.target').hide();
+      $('.color-white').show();
+      $('#clr1').on('click',function(){
+        $('.target').hide();
+        $('.color-green').show();
+      })
+      $('#clr2').on('click',function(){
+        $('.target').hide();
+        $('.color-red').show();
+      })
+      $('#clr3').on('click',function(){
+        $('.target').hide();
+        $('.color-yellow').show();
+      })
+      $('#clr4').on('click',function(){
+        $('.target').hide();
+        $('.color-blue').show();
+      })
+      $('#clr5').on('click',function(){
+        $('.target').hide();
+        $('.color-white').show();
+      })
+      $('#clr6').on('click',function(){
+        $('.target').hide();
+        $('.color-black').show();
+      })
+    });
+  </script>
+
+
+  <div class="w3-center">
+      <h1>SIGHT - Expression Board</h1>
+  </div>
+  <div class="color-green target w3-container" >
+      <div class="w3-block w3-green w3-jumbo w3-hover-shadow w3-center w3-padding-64" >
+        Green 
+      </div>
+  </div>
+  <div class="color-red target w3-container"  >
+      <div class="w3-block w3-red w3-jumbo w3-hover-shadow w3-center w3-padding-64" >
+        Red 
+      </div>
+  </div>  <div class="color-yellow target w3-container"  >
+      <div class="w3-block w3-yellow w3-jumbo w3-hover-shadow w3-center w3-padding-64" >
+        Yellow 
+      </div>
+  </div>  <div class="color-blue target w3-container"  >
+      <div class="w3-block w3-blue w3-jumbo w3-hover-shadow w3-center w3-padding-64" >
+        Blue 
+      </div>
+  </div>  <div class="color-white target w3-container"  >
+      <div class="w3-block w3-white w3-jumbo w3-hover-shadow w3-center w3-padding-64" >
+        White 
+      </div>
+  </div>  <div class="color-black target w3-container"  >
+      <div class="w3-block w3-black w3-jumbo w3-hover-shadow w3-center w3-padding-64" >
+        Black 
+      </div>
+  </div>
+
+  <div class="w3-cell-row">
+      <div class="w3-button w3-green w3-hover-green w3-padding-64 w3-center w3-cell " style="width:49%" id="clr1">
+      </div>
+      <div class="w3-button w3-red w3-hover-red w3-padding-64 w3-center w3-cell" style="width:49%" id="clr2">
+      </div>
+  </div>
+  <div class="w3-cell-row">
+      <div class="w3-button w3-yellow w3-hover-yellow w3-padding-64 w3-center w3-cell" style="width:49%" id="clr3">
+      </div>
+      <div class="w3-button w3-blue w3-hover-blue w3-padding-64 w3-center w3-cell" style="width:49%" id="clr4">
+      </div>
+  </div>
+  <div class="w3-cell-row">
+      <div class="w3-button w3-white w3-hover-white w3-padding-64 w3-center w3-cell" style="width:49%" id="clr5">
+      </div>
+      <div class="w3-button w3-black w3-hover-black w3-padding-64 w3-center w3-cell" style="width:49%" id="clr6">
+      </div>
+  </div>
+
+
+</body>
+</html>
